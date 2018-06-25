@@ -19,7 +19,9 @@ All files are written in Google Apps Script and meant for use with Google Sheets
 This sampler can be used with any Google Sheets-based dataset that is formatted with one item per row.
 
 Users input some basic information about the sheet they are sampling from, including the header rows to exclude and the number of items they wish to include in the sample, and the sampler will create a new, timestamped tab with the sample.
+
 ![alt text][generic]
+
 Artificial data generated using [Mockaroo][mockdata].
 
 ----
