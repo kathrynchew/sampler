@@ -5,7 +5,7 @@
 /* SETUP GOES HERE */
 
 function onOpen() {
-  var ui = SpreadsheetApp.getUi()
+  var ui = SpreadsheetApp.getUi();
   ui.createMenu('Audit')
   .addItem('Generate All Samples', 'onboardingTransactionSample') // Run all sampler functions
   .addSeparator()
